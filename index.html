@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CARA CARA</title>
     <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="./assets/UX-HTML-CSS"/>
 </head>
 <body>
     <header>
@@ -16,22 +17,28 @@
                 <li><a href="">PRODUCTS</a></li>
                 <li><a href="">CONTACT</a></li>
             </ul>
-            <form class="search" action="action_page.php">
+            <a class="main" href="">CARA <img src="./assets/UX-HTML-CSS/icons8-pottery-96.png" alt="Cara ICON"/> CARA</a>
+            <form class="searchbar" action="action_page.php">
                 <input type="text">
-                <button type="submit"><i class="Google Magnifying Glass"></i></button>
+                <button type="submit"><i class="1200px-Google_Magnifying_Glass"></i></button>
             </form>
-            <form clas="cart">
+            <form class="cart">
                 <button type="submit">CART (0)</button>
             </form>
         </nav>
     </header>
-    <!-- <main>
-        <section class="home">
+    <main>
+        <div class="home">
             <img src="./assets/UX-HTML-CSS/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="earl wilcox"/>
-            <h1>CERMAICS CRAFTED BY HAND...</h1>
-            <h2>... FROM THE GROUND UP</h2>
-        </section>
-        <section class="about">
+        </div>
+        <div class="Picture Text">
+            <h1 class="first-txt">CERMAICS</h1>
+            <h1 class="second-txt">CRAFTED BY</h1>
+            <h1 class="third-txt">HAND...</h1>
+            <h1 class="fourth-txt">... FROM THE</h1>
+            <h1 class="fifth-txt">GROUND UP</h1>
+        </div>
+        <div class="about">
             <img src="./assets/UX-HTML-CSS/Vase_Dame_2048x2048.jpg" alt="Flower in Vase"/>
             <img src="./assets/UX-HTML-CSS/Cylinder_unglazed3_2048x2048.jpg" alt="Flower in Cylinder Vase"/>
             <p>
@@ -54,10 +61,10 @@
             <p>Tincidunt praesent semper feugiat nibh sed.Vulputate mi sit amet mauris commodo quisimperdiet massa. 
                 Amet tellus cras adipiscingenim eu turpis egestas pretium aenean.Nullam ac tortor vitae purus
             </p>
-        </section>
-        <section class="products">
+        </div>
+        <!-- <div class="products">
             <img src="./assets/UX-HTML-CSS/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="Mundo Bowls"/>
-            <h2>Mundo Bowls</h2>
+            <h1>Mundo Bowls</h1>
             <h2>$48.00</h2>
             <p>Tincidunt praesent semper feugiat nibhsed. Vulputate mi sit amet mauriscommodo quis imperdiet massa. Amettellus cras adipiscing enim eu turpisegestas pretium aenean.</p>
             <form class="learn">
@@ -67,7 +74,7 @@
                 <button type="submit">ADD TO CART</button>
             </form>
             <img src="./assets/UX-HTML-CSS/oriento-maVIpNNtmlQ-unsplash.jpg" alt="Natureza Vase"/>
-            <h2>Natureza Vase</h2>
+            <h1>Natureza Vase</h1>
             <h2>$37.00</h2>
             <p>Tincidunt praesent semper feugiat nibhsed. Vulputate mi sit amet mauris
                 commodo quis imperdiet massa. Amettellus cras adipiscing enim eu turpisegestas pretium aenean.
@@ -79,7 +86,7 @@
                 <button type="submit">ADD TO CART</button>
             </form>
             <img src="./assets/UX-HTML-CSS/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="Feira Bowls"/>
-            <h2>Feira Bowls</h2>
+            <h1>Feira Bowls</h1>
             <h2>$29.00</h2>
             <p>Tincidunt praesent semper feugiat nibh
                 sed. Vulputate mi sit amet mauris
@@ -94,7 +101,7 @@
                 <button type="submit">ADD TO CART</button>
             </form>
             <img src="./assets/UX-HTML-CSS/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="Natureza Pots"/>
-            <h2>NATUREZA POTS</h2>
+            <h1>NATUREZA POTS</h1>
             <h2>$59.00</h2>
             <p>Tincidunt praesent semper feugiat nibh
                 sed. Vulputate mi sit amet mauris
@@ -109,7 +116,7 @@
                 <button type="submit">ADD TO CART</button>
             </form>
             <img src="./assets/UX-HTML-CSS/linh-le-a0rE64YJDA4-unsplash.jpg" alt="Pedra Vase"/>
-            <h2>PEDRA VASE</h2>
+            <h1>PEDRA VASE</h1>
             <h2>$31.00</h2>
             <p>Tincidunt praesent semper feugiat nibh
                 sed. Vulputate mi sit amet mauris
@@ -124,7 +131,7 @@
                 <button type="submit">ADD TO CART</button>
             </form>
             <img src="./assets/UX-HTML-CSS/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="Viaja Pots"/>
-            <h2>VIAJA POTS</h2>
+            <h1>VIAJA POTS</h1>
             <h2>$57.00</h2>
             <p>Tincidunt praesent semper feugiat nibh
                 sed. Vulputate mi sit amet mauris
@@ -139,7 +146,7 @@
                 <button type="submit">ADD TO CART</button>
             </form>
             <img src="./assets/UX-HTML-CSS/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="Servico Plates"/>
-            <h2>SERVIÇO PLATES</h2>
+            <h1>SERVIÇO PLATES</h1>
             <h2>$35.00</h2>
             <p>Tincidunt praesent semper feugiat nibh
                 sed. Vulputate mi sit amet mauris
@@ -154,7 +161,7 @@
                 <button type="submit">ADD TO CART</button>
             </form>
             <img src="./assets/UX-HTML-CSS/oriento-l0ah3UBLppo-unsplash.jpg" alt="Campeao Vase"/>
-            <h2>CAMPEÃO VASE</h2>
+            <h1>CAMPEÃO VASE</h1>
             <h2>$37.00</h2>
             <p>Tincidunt praesent semper feugiat nibh
                 sed. Vulputate mi sit amet mauris
@@ -169,7 +176,7 @@
                 <button type="submit">ADD TO CART</button>
             </form>
             <img src="./assets/UX-HTML-CSS/tom-crew-SITGdvztUdg-unsplash.jpg" alt="Troca Bowls"/>
-            <h2>TROCA BOWLS</h2>
+            <h1>TROCA BOWLS</h1>
             <h2>$25.00</h2>
             <p>Tincidunt praesent semper feugiat nibh
                 sed. Vulputate mi sit amet mauris
@@ -183,9 +190,9 @@
             <form clas="add__cart">
                 <button type="submit">ADD TO CART</button>
             </form>
-        </section>
+        </div> -->
     </main>
-    <footer>
+    <!-- <footer>
         <img src="./assets/UX-HTML-CSS/icons8-facebook-96 (1).png" alt="Facebook Icon"/>
         <img src="./assets/UX-HTML-CSS/icons8-instagram-96.png" alt="Instagram Icon"/>
         <img src="./assets/UX-HTML-CSS/icons8-pottery-96.png" alt="CaraCara Icon"/>
