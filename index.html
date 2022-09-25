@@ -12,10 +12,10 @@
     <header>
         <nav>
             <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">PRODUCTS</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="#HOME">HOME</a></li>
+                <li><a href="#ABOUT_US">ABOUT</a></li>
+                <li><a href="#OUR_PRODUCTS">PRODUCTS</a></li>
+                <li><a href="#CONTACT_US">CONTACT</a></li>
             </ul>
             <a class="main" href="">CARA <img src="./assets/UX-HTML-CSS/icons8-pottery-96.png" alt="Cara ICON"/> CARA</a>
             <form class="searchbar" action="action_page.php">
@@ -28,20 +28,20 @@
         </nav>
     </header>
     <main>
-        <div class="home">
+        <section class="home">
+            <a id="HOME"></a>
             <img src="./assets/UX-HTML-CSS/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="earl wilcox"/>
-        </div>
-        <div class="Picture Text">
+        </section>
+        <section class="Picture Text">
             <h1 class="first-txt">CERMAICS</h1>
             <h1 class="second-txt">CRAFTED BY</h1>
             <h1 class="third-txt">HAND...</h1>
             <h1 class="fourth-txt">... FROM THE</h1>
             <h1 class="fifth-txt">GROUND UP</h1>
-        </div>
-        <div class="about">
-            <img src="./assets/UX-HTML-CSS/Vase_Dame_2048x2048.jpg" alt="Flower in Vase"/>
-            <img src="./assets/UX-HTML-CSS/Cylinder_unglazed3_2048x2048.jpg" alt="Flower in Cylinder Vase"/>
-            <p>
+        </section>
+        <section class="about">
+            <h1 id="ABOUT_US">ABOUT US</h1>
+            <p class="p1">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                 ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id
                 faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames
@@ -49,7 +49,9 @@
                 risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit
                 amet commodo.
             </p>
-            <p>Nulla porttitor massa id neque aliquam
+            <img class="vase_Dame" src="./assets/UX-HTML-CSS/Vase_Dame_2048x2048.jpg" alt="Flower in Vase"/>
+            <img class="unglazed" src="./assets/UX-HTML-CSS/Cylinder_unglazed3_2048x2048.jpg" alt="Flower in Cylinder Vase" style="transform: scaleX(-1);"/>
+            <p class="p2">Nulla porttitor massa id neque aliquam
                 vestibulum morbi. Facilisi nullam vehicula
                 ipsum a arcu cursus vitae congue. Nam libero
                 justo laoreet sit amet cursus sit amet dictum.
@@ -58,151 +60,177 @@
                 mattis. Egestas sed sed risus pretiumquam vulputate dignissim. Diam 
                 phasellusvestibulum lorem sed risus. Cursus sit ametdictum sit amet justo donec enim.
             </p>
-            <p>Tincidunt praesent semper feugiat nibh sed.Vulputate mi sit amet mauris commodo quisimperdiet massa. 
+            <p class="p3">Tincidunt praesent semper feugiat nibh sed.Vulputate mi sit amet mauris commodo quisimperdiet massa. 
                 Amet tellus cras adipiscingenim eu turpis egestas pretium aenean.Nullam ac tortor vitae purus
             </p>
-        </div>
-        <!-- <div class="products">
-            <img src="./assets/UX-HTML-CSS/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="Mundo Bowls"/>
-            <h1>Mundo Bowls</h1>
-            <h2>$48.00</h2>
-            <p>Tincidunt praesent semper feugiat nibhsed. Vulputate mi sit amet mauriscommodo quis imperdiet massa. Amettellus cras adipiscing enim eu turpisegestas pretium aenean.</p>
-            <form class="learn">
-                <button type="submit">LEARN MORE</button>
-            </form>
-            <form clas="add__cart">
-                <button type="submit">ADD TO CART</button>
-            </form>
-            <img src="./assets/UX-HTML-CSS/oriento-maVIpNNtmlQ-unsplash.jpg" alt="Natureza Vase"/>
-            <h1>Natureza Vase</h1>
-            <h2>$37.00</h2>
-            <p>Tincidunt praesent semper feugiat nibhsed. Vulputate mi sit amet mauris
-                commodo quis imperdiet massa. Amettellus cras adipiscing enim eu turpisegestas pretium aenean.
-            </p>
-            <form class="learn">
-                <button type="submit">LEARN MORE</button>
-            </form>
-            <form clas="add__cart">
-                <button type="submit">ADD TO CART</button>
-            </form>
-            <img src="./assets/UX-HTML-CSS/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="Feira Bowls"/>
-            <h1>Feira Bowls</h1>
-            <h2>$29.00</h2>
-            <p>Tincidunt praesent semper feugiat nibh
-                sed. Vulputate mi sit amet mauris
-                commodo quis imperdiet massa. Amet
-                tellus cras adipiscing enim eu turpis
-                egestas pretium aenean.
-            </p>
-            <form class="learn">
-                <button type="submit">LEARN MORE</button>
-            </form>
-            <form clas="add__cart">
-                <button type="submit">ADD TO CART</button>
-            </form>
-            <img src="./assets/UX-HTML-CSS/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="Natureza Pots"/>
-            <h1>NATUREZA POTS</h1>
-            <h2>$59.00</h2>
-            <p>Tincidunt praesent semper feugiat nibh
-                sed. Vulputate mi sit amet mauris
-                commodo quis imperdiet massa. Amet
-                tellus cras adipiscing enim eu turpis
-                egestas pretium aenean
-            </p>
-            <form class="learn">
-                <button type="submit">LEARN MORE</button>
-            </form>
-            <form clas="add__cart">
-                <button type="submit">ADD TO CART</button>
-            </form>
-            <img src="./assets/UX-HTML-CSS/linh-le-a0rE64YJDA4-unsplash.jpg" alt="Pedra Vase"/>
-            <h1>PEDRA VASE</h1>
-            <h2>$31.00</h2>
-            <p>Tincidunt praesent semper feugiat nibh
-                sed. Vulputate mi sit amet mauris
-                commodo quis imperdiet massa. Amet
-                tellus cras adipiscing enim eu turpis
-                egestas pretium aenean.
-            </p>
-            <form class="learn">
-                <button type="submit">LEARN MORE</button>
-            </form>
-            <form clas="add__cart">
-                <button type="submit">ADD TO CART</button>
-            </form>
-            <img src="./assets/UX-HTML-CSS/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="Viaja Pots"/>
-            <h1>VIAJA POTS</h1>
-            <h2>$57.00</h2>
-            <p>Tincidunt praesent semper feugiat nibh
-                sed. Vulputate mi sit amet mauris
-                commodo quis imperdiet massa. Amet
-                tellus cras adipiscing enim eu turpis
-                egestas pretium aenean.
-            </p>
-            <form class="learn">
-                <button type="submit">LEARN MORE</button>
-            </form>
-            <form clas="add__cart">
-                <button type="submit">ADD TO CART</button>
-            </form>
-            <img src="./assets/UX-HTML-CSS/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="Servico Plates"/>
-            <h1>SERVIÇO PLATES</h1>
-            <h2>$35.00</h2>
-            <p>Tincidunt praesent semper feugiat nibh
-                sed. Vulputate mi sit amet mauris
-                commodo quis imperdiet massa. Amet
-                tellus cras adipiscing enim eu turpis
-                egestas pretium aenean.
-            </p>
-            <form class="learn">
-                <button type="submit">LEARN MORE</button>
-            </form>
-            <form clas="add__cart">
-                <button type="submit">ADD TO CART</button>
-            </form>
-            <img src="./assets/UX-HTML-CSS/oriento-l0ah3UBLppo-unsplash.jpg" alt="Campeao Vase"/>
-            <h1>CAMPEÃO VASE</h1>
-            <h2>$37.00</h2>
-            <p>Tincidunt praesent semper feugiat nibh
-                sed. Vulputate mi sit amet mauris
-                commodo quis imperdiet massa. Amet
-                tellus cras adipiscing enim eu turpis
-                egestas pretium aenean.
-            </p>
-            <form class="learn">
-                <button type="submit">LEARN MORE</button>
-            </form>
-            <form clas="add__cart">
-                <button type="submit">ADD TO CART</button>
-            </form>
-            <img src="./assets/UX-HTML-CSS/tom-crew-SITGdvztUdg-unsplash.jpg" alt="Troca Bowls"/>
-            <h1>TROCA BOWLS</h1>
-            <h2>$25.00</h2>
-            <p>Tincidunt praesent semper feugiat nibh
-                sed. Vulputate mi sit amet mauris
-                commodo quis imperdiet massa. Amet
-                tellus cras adipiscing enim eu turpis
-                egestas pretium aenean.
-            </p>
-            <form class="learn">
-                <button type="submit">LEARN MORE</button>
-            </form>
-            <form clas="add__cart">
-                <button type="submit">ADD TO CART</button>
-            </form>
-        </div> -->
+        </section>
+        <section class="products">
+            <h1 id="OUR PRODUCTS">OUR PRODUCTS</h1>
+            <div class="grid-container">
+                    <div class="mundo">
+                        <img src="./assets/UX-HTML-CSS/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="Mundo Bowls"/>
+                        <h2>MUNDO BOWLS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$48.00</h2>
+                        <p>Tincidunt praesent semper feugiat nibhsed. Vulputate mi sit amet mauriscommodo quis imperdiet massa. Amettellus cras adipiscing enim eu turpisegestas pretium aenean.</p>
+                        <form class="learn">
+                            <button type="submit">LEARN MORE</button>
+                        </form>
+                        <form class="add_cart">
+                            <button type="submit">ADD TO CART</button>
+                        </form>
+                    </div>
+                    <div class="natureza_vase">
+                        <img src="./assets/UX-HTML-CSS/oriento-maVIpNNtmlQ-unsplash.jpg" alt="Natureza Vase"/>
+                        <h2>NATUREZA VASE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$37.00</h2>
+                        <p>Tincidunt praesent semper feugiat nibhsed. Vulputate mi sit amet mauris
+                            commodo quis imperdiet massa. Amettellus cras adipiscing enim eu turpisegestas pretium aenean.
+                        </p>
+                        <form class="learn">
+                            <button type="submit">LEARN MORE</button>
+                        </form>
+                        <form class="add_cart">
+                            <button type="submit">ADD TO CART</button>
+                        </form>
+                    </div>
+                    <div class="feira">
+                        <img src="./assets/UX-HTML-CSS/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="Feira Bowls"/>
+                        <h2>FEIRA BOWLS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$29.00</h2>
+                        <p>Tincidunt praesent semper feugiat nibh
+                            sed. Vulputate mi sit amet mauris
+                            commodo quis imperdiet massa. Amet
+                            tellus cras adipiscing enim eu turpis
+                            egestas pretium aenean.
+                        </p>
+                        <form class="learn">
+                            <button type="submit">LEARN MORE</button>
+                        </form>
+                        <form class="add_cart">
+                            <button type="submit">ADD TO CART</button>
+                        </form>
+                    </div>
+                    <div class="natureza_pots">
+                        <img src="./assets/UX-HTML-CSS/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="Natureza Pots"/>
+                        <h2>NATUREZA POTS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$59.00</h2>
+                        <p>Tincidunt praesent semper feugiat nibh
+                            sed. Vulputate mi sit amet mauris
+                            commodo quis imperdiet massa. Amet
+                            tellus cras adipiscing enim eu turpis
+                            egestas pretium aenean
+                        </p>
+                        <form class="learn">
+                            <button type="submit">LEARN MORE</button>
+                        </form>
+                        <form class="add_cart">
+                            <button type="submit">ADD TO CART</button>
+                        </form>
+                    </div>
+                    <div class="pedra">
+                        <img src="./assets/UX-HTML-CSS/linh-le-a0rE64YJDA4-unsplash.jpg" alt="Pedra Vase"/>
+                        <h2>PEDRA VASE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$31.00</h2>
+                        <p>Tincidunt praesent semper feugiat nibh
+                            sed. Vulputate mi sit amet mauris
+                            commodo quis imperdiet massa. Amet
+                            tellus cras adipiscing enim eu turpis
+                            egestas pretium aenean.
+                        </p>
+                        <form class="learn">
+                            <button type="submit">LEARN MORE</button>
+                        </form>
+                        <form class="add_cart">
+                            <button type="submit">ADD TO CART</button>
+                        </form>
+                    </div>
+                    <div class="viaja">
+                        <img src="./assets/UX-HTML-CSS/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="Viaja Pots"/>
+                        <h2>VIAJA POTS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$57.00</h2>
+                        <p>Tincidunt praesent semper feugiat nibh
+                            sed. Vulputate mi sit amet mauris
+                            commodo quis imperdiet massa. Amet
+                            tellus cras adipiscing enim eu turpis
+                            egestas pretium aenean.
+                        </p>
+                        <form class="learn">
+                            <button type="submit">LEARN MORE</button>
+                        </form>
+                        <form class="add_cart">
+                            <button type="submit">ADD TO CART</button>
+                        </form>
+                    </div>
+                    <div class="servico">
+                        <img src="./assets/UX-HTML-CSS/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="Servico Plates"/>
+                        <h2>SERVIÇO PLATES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$35.00</h2>
+                        <p>Tincidunt praesent semper feugiat nibh
+                            sed. Vulputate mi sit amet mauris
+                            commodo quis imperdiet massa. Amet
+                            tellus cras adipiscing enim eu turpis
+                            egestas pretium aenean.
+                        </p>
+                        <form class="learn">
+                            <button type="submit">LEARN MORE</button>
+                        </form>
+                        <form class="add_cart">
+                            <button type="submit">ADD TO CART</button>
+                        </form>
+                    </div>
+                    <div class="campeao">
+                        <img src="./assets/UX-HTML-CSS/oriento-l0ah3UBLppo-unsplash.jpg" alt="Campeao Vase"/>
+                        <h2>CAMPEÃO VASE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$37.00</h2>
+                        <p>Tincidunt praesent semper feugiat nibh
+                            sed. Vulputate mi sit amet mauris
+                            commodo quis imperdiet massa. Amet
+                            tellus cras adipiscing enim eu turpis
+                            egestas pretium aenean.
+                        </p>
+                        <form class="learn">
+                            <button type="submit">LEARN MORE</button>
+                        </form>
+                        <form class="add_cart">
+                            <button type="submit">ADD TO CART</button>
+                        </form>
+                    </div>
+                    <div class="troca">
+                        <img src="./assets/UX-HTML-CSS/tom-crew-SITGdvztUdg-unsplash.jpg" alt="Troca Bowls"/>
+                        <h2>TROCA BOWLS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$25.00</h2>
+                        <p>Tincidunt praesent semper feugiat nibh
+                            sed. Vulputate mi sit amet mauris
+                            commodo quis imperdiet massa. Amet
+                            tellus cras adipiscing enim eu turpis
+                            egestas pretium aenean.
+                        </p>
+                        <form class="learn">
+                            <button type="submit">LEARN MORE</button>
+                        </form>
+                        <form class="add_cart">
+                            <button type="submit">ADD TO CART</button>
+                        </form>
+                    </div>
+            </div>
+        </section>
+        <section class="contact">
+            <h1 id="CONTACT US">CONTACT US</h1>
+            <div class="container">
+                <form action="action_page.php">
+                    <label for="email">EMAIL</label>
+                    <input type="text" id="email" name="email">
+
+                    <label for="message">MESSAGE</label>
+                    <textarea id="subject" name="message" style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
     </main>
-    <!-- <footer>
-        <img src="./assets/UX-HTML-CSS/icons8-facebook-96 (1).png" alt="Facebook Icon"/>
-        <img src="./assets/UX-HTML-CSS/icons8-instagram-96.png" alt="Instagram Icon"/>
-        <img src="./assets/UX-HTML-CSS/icons8-pottery-96.png" alt="CaraCara Icon"/>
-        <img src="./assets/UX-HTML-CSS/icons8-tiktok-96.png" alt="TikTok Icon"/>
-        <img src="./assets/UX-HTML-CSS/icons8-twitter-96.png" alt="Twitter Icon"/>
-        <img src="./assets/UX-HTML-CSS/icons8-youtube-96.png" alt="Youtube Icon"/>
-        Pretium nibh ipsum consequat nisl vel pretium
-        Amet tellus cras adipiscing enim eu turpis. 
-        CARA CARA
-        ©Copyright 2015-2020
-    </footer> -->
+    <footer>
+        <div class="imgs">
+            <img class="youtube" src="./assets/UX-HTML-CSS/icons8-youtube-96.png" alt="Youtube Icon"/>
+            <img class="facebook" src="./assets/UX-HTML-CSS/icons8-facebook-96 (1).png" alt="Facebook Icon"/>
+            <h2>CARA <img class="main_icon" src="./assets/UX-HTML-CSS/icons8-pottery-96 (1).png" alt="CaraCara Icon"/> CARA</h2>
+            <img class="instagram" src="./assets/UX-HTML-CSS/icons8-instagram-96.png" alt="Instagram Icon"/>
+            <img class="twitter" src="./assets/UX-HTML-CSS/icons8-twitter-96.png" alt="Twitter Icon"/>
+        </div>
+        <h4 class="h4-1">Pretium nibh ipsum consequat nisl vel pretium</h4>
+        <h4 class="h4-2">Amet tellus cras adipiscing enim eu turpis.</h4> 
+        <h4 class="h4-3">©Copyright 2015-2020</h4>
+    </footer>
 </body>
 </html>
